@@ -15,17 +15,15 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
 
   }
-
-
+  componentDidMount(){
+    console.log('mounted')
+}
   
   render() {
-    console.log('mounted')
     console.log('rendered')
     
     return (
-      
       <div id="main">
-      
           <div id="count">{this.state.count}</div>
           <button id="incr" onClick={this.handleClick}>Increment</button>
       </div>
