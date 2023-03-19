@@ -19,12 +19,13 @@ class App extends React.Component {
 
   
   render() {
+    console.log('mounted')
     console.log('rendered')
     
     return (
       
       <div id="main">
-      console.log("mounted")
+      
           <div id="count">{this.state.count}</div>
           <button id="incr" onClick={this.handleClick}>Increment</button>
       </div>
