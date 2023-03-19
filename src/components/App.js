@@ -22,7 +22,7 @@ class App extends React.Component {
     console.log('rendered')
     
     return (
-      console.log("mounted")
+      
       <div id="main">
       console.log("mounted")
           <div id="count">{this.state.count}</div>
