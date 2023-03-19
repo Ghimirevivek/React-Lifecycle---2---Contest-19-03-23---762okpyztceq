@@ -7,6 +7,7 @@ class App extends React.Component {
 
   handleClick(){
     this.setState({count: this.state.count+1})
+    console.log("mounted")
   }
   constructor(props){
     super(props)
